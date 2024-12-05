@@ -1,0 +1,27 @@
+.scancard {
+    position: fixed;
+    bottom: var(--spacing-1);
+    right: 0;
+    width: 12rem;
+    height:13.5rem;
+    border-radius: var(--spacing-2);
+    padding: 0.75rem;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: var(--grey-color-5);
+    z-index: 1000;
+  }
+
+  .scancard h6{
+    margin-bottom:0.25rem;
+    text-align: center;
+    
+  }
+  
+  .scancard__qpr{
+    background-color: var(--grey-color-5);
+    border: 2px solid var(--primary-color);
+    border-radius: var(--spacing-2);
+    padding: 0.25rem;
+  }
+ 

@@ -1,0 +1,15 @@
+.faq{
+    
+}
+
+.faq__page-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4.5rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    height: 28rem;
+    background-color: var(--grey-color-10);
+}
+

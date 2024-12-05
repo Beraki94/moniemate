@@ -1,0 +1,13 @@
+.get-started {
+  overflow-x:hidden
+}
+
+.get-started__scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 2rem;
+}
+
+.get-started__scroll::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for a cleaner look */
+}

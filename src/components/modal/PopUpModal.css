@@ -1,0 +1,73 @@
+/*POPUP MODAL COMPONENT*/
+.onboarding{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: var(--grey-color-75-75); 
+  z-index: 1000;
+}
+ 
+.modal-content {
+    width: 50rem;
+    border-radius: 0.5rem;
+    margin: 12% auto;
+    background:var(--grey-color-5);
+    padding: var(--spacing-6);
+    overflow: hidden;
+    z-index: 1001; /* Ensure it's above the overlay */
+  }
+.modal__close{
+  font-size: 2rem;
+  position: absolute;
+  right: 1.5rem;
+  top: 1.5rem;
+  background-color: var(--error-color);
+  color: var(--grey-color-5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--spacing-1);
+  border-radius: var(--spacing-3);
+
+}
+
+
+
+.modal__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-4);
+}
+
+.modal__info img{
+  width: 10rem;
+}
+
+.modal__info h5{
+  color: var(--secondary-color);
+}
+
+
+
+
+@media (max-width: 1089px) {
+  .modal-content {
+    width: 50%;
+    padding: 1.5rem;
+   
+  }
+}
+@media (max-width: 840px) {
+  .modal-content {
+    width: 65%;
+    padding: 1rem;
+  }
+}
+@media (max-width: 394px) {
+  .nav-btn {
+    display: none;
+  }
+}

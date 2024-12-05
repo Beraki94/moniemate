@@ -1,0 +1,23 @@
+.section-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    text-align: center;
+    position: relative; /* Ensures content stays above the overlay */
+    z-index: 2;
+  }
+  
+  
+  .section-header__title {
+    text-shadow: 2px 2px 6px var(--grey-color-25);
+    margin-bottom: var(--spacing-4);
+    color: var(--secondary-color); /* Adjusted to your theme */
+  }
+
+  
+  .section-header.secondary .section-header__title{
+    color: var(--grey-color-5);
+    text-shadow: 2px 2px 6px var(--grey-color-100)
+  }

@@ -1,0 +1,81 @@
+/* HeroSection.css */
+.hero {
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 112px;
+    margin: 0 auto;
+  }
+  
+  .hero__content {
+    flex-wrap: wrap;
+    
+  }
+  
+  .hero__title {
+    margin-bottom: var(--spacing-2);
+  }
+  
+  .hero__subtitle {
+    font-weight: bold;
+    margin-bottom:var(--spacing-4);
+  }
+  
+  .hero__buttons {
+    display: flex;
+    gap: var(--spacing-2);
+    margin-bottom: var(--spacing-2);
+  }
+  
+  .hero__button img {
+    height: var(--spacing-8);
+    width: auto;
+  }
+  
+  .hero__disclaimer {
+    color: #777;
+  }
+  
+  .hero__image {
+    display: flex;
+    justify-content: center;
+    flex: 1;  
+    
+  }
+
+  .hero__image__circle{
+    position: relative;
+    background-color: var(--grey-color-25);
+    border-radius: 50% 50% 50% 0;
+    height:400px;
+    width: 400px;
+    border: 12px solid var(--primary-color);
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .hero__content {
+      max-width: 100%;
+    }
+  
+    .hero__title {
+      font-size: 28px;
+    }
+  
+    .hero__subtitle {
+      font-size: 16px;
+    }
+  
+    .hero__image {
+      margin-top: 24px;
+      max-width: 300px;
+    }
+  }
+  

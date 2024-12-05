@@ -1,0 +1,36 @@
+/* PhoneMockup.css */
+
+.phone-mockup {
+   position:absolute;
+   top: -15%;
+   right: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .phone-image {
+    width: 260px;
+  }
+  
+  .ripple-ring {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: rgb(8, 214, 101); /* Light blue color */
+    animation: ripple 1.5s infinite;
+  }
+  
+  @keyframes ripple {
+    0% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+    100% {
+      transform: scale(2.5);
+      opacity: 0;
+    }
+  }
+  
